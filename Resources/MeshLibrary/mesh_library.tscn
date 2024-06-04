@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3 uid="uid://dutauhqn24dwf"]
+
+[ext_resource type="Texture2D" uid="uid://bsavcll2wwr50" path="res://Assets/PrototypeTextures/Dark/texture_04.png" id="1_rubro"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_81mql"]
+albedo_texture = ExtResource("1_rubro")
+uv1_triplanar = true
+uv1_world_triplanar = true
+
+[sub_resource type="BoxMesh" id="BoxMesh_b8dgt"]
+material = SubResource("StandardMaterial3D_81mql")
+size = Vector3(2, 2, 2)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_71gpu"]
+points = PackedVector3Array(-1, -1, -1, 1, 1, 1, 1, -1, 1, 1, 1, -1, -1, 1, 1, 1, -1, -1, -1, -1, 1, -1, 1, -1)
+
+[node name="MeshLibrary" type="Node3D"]
+
+[node name="Floor" type="MeshInstance3D" parent="."]
+mesh = SubResource("BoxMesh_b8dgt")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Floor"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Floor/StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_71gpu")
