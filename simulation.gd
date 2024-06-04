@@ -2,6 +2,7 @@ extends Node
 
 
 @onready var _ground: TileMap = %GroundTiles
+@onready var _entity_placer: TileMap = %EntityPlacer
 
 
 func _ready() -> void:

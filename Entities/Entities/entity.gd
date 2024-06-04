@@ -1,4 +1,4 @@
-class_name Entity extends Node2D
+class_name Entity extends Node
 
 ## Specifies the object type that is allowed to deconstruct this entity.
 ## Deconstructing means harvesting a resource or turning an entity in the world into an item.
