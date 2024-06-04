@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://cewddfeai8p0q"
-path="res://.godot/imported/BagnardSans.otf-dfdef338a5534758836799b32edebf19.fontdata"
+path="res://.godot/imported/BagnardSans.otf-aaa19c288ce594ff343ab8da091f5a8e.fontdata"
 
 [deps]
 
-source_file="res://Shared/Theme/Font/BagnardSans.otf"
-dest_files=["res://.godot/imported/BagnardSans.otf-dfdef338a5534758836799b32edebf19.fontdata"]
+source_file="res://Assets/Theme/Font/BagnardSans.otf"
+dest_files=["res://.godot/imported/BagnardSans.otf-aaa19c288ce594ff343ab8da091f5a8e.fontdata"]
 
 [params]
 

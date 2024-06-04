@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bvcfe13u82ela"
-path="res://.godot/imported/blueprints.svg-d3d95e1cff85b4e920543db594cefaed.ctex"
+uid="uid://b51vo4lwl0bul"
+path="res://.godot/imported/tileset.svg-5e3ded835f66be352de5dbcf160825cd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Shared/blueprints.svg"
-dest_files=["res://.godot/imported/blueprints.svg-d3d95e1cff85b4e920543db594cefaed.ctex"]
+source_file="res://Assets/tileset.svg"
+dest_files=["res://.godot/imported/tileset.svg-5e3ded835f66be352de5dbcf160825cd.ctex"]
 
 [params]
 
